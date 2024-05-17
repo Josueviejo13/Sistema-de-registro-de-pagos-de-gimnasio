@@ -1,0 +1,17 @@
+http://josueviejo13.pythonanywhere.com/clientes
+Post: nombre, apellidos
+put: http://josueviejo13.pythonanywhere.com/clientes/(id) parametros: nombre, apellidos
+delete: http://josueviejo13.pythonanywhere.com/clientes/(id)
+get: http://josueviejo13.pythonanywhere.com/clientes
+
+http://josueviejo13.pythonanywhere.com/pagos
+Post: monto, cliente_id
+put: http://josueviejo13.pythonanywhere.com/pagos/(id) parametros: monto, cliente_id
+delete: http://josueviejo13.pythonanywhere.com/pagos/(id)
+get: http://josueviejo13.pythonanywhere.com/pagos
+
+http://josueviejo13.pythonanywhere.com/suscripciones
+Post: tipo, precio, cliente_id
+put: http://josueviejo13.pythonanywhere.com/suscripciones/(id) parametros: tipo, precio, cliente_id
+delete: http://josueviejo13.pythonanywhere.com/suscripciones/(id)
+get: http://josueviejo13.pythonanywhere.com/suscripciones
